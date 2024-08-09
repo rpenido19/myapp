@@ -1,0 +1,65 @@
+# Backend
+backend/.DS_Store
+
+backend/application/cache/*
+backend/!application/cache/index.html
+
+backend/application/logs/*
+backend/!application/logs/index.html
+
+backend/!application/*/.htaccess
+
+backend/composer.lock
+backend/tests/mocks/database/ci_test.sqlite
+
+backend/user_guide_src/build/*
+backend/user_guide_src/cilexer/build/*
+backend/user_guide_src/cilexer/dist/*
+backend/user_guide_src/cilexer/pycilexer.egg-info/*
+backend/vendor/
+
+# IDE Files
+#-------------------------
+backend/nbproject/
+backend/.idea/*
+
+## Sublime Text cache files
+backend/*.tmlanguage.cache
+backend/*.tmPreferences.cache
+backend/*.stTheme.cache
+backend/*.sublime-workspace
+backend/*.sublime-project
+backend/tests/tests/
+backend/tests/results/
+
+# Frontend
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/coverage
+frontend/*.local
+
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+frontend/*.tsbuildinfo
